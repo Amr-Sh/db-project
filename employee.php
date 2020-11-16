@@ -1,5 +1,6 @@
 <?php
 include'connect.php';
+
 //session------------------->
 session_start();
   if(!isset($_SESSION['user']))
